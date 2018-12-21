@@ -1,9 +1,13 @@
 package SimpleMaths.leetcode;
 
 
+/**
+ * leetcode 344. Reverse String
+ * @author user
+ *
+ */
 class ReversString{
 		static int res(int x) {
-		System.out.println("��J��r :"+x);
 		String inputstring=Integer.toString(x);
 		String s=new StringBuilder(inputstring).reverse().toString();
 		

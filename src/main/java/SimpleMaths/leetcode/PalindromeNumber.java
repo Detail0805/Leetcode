@@ -1,6 +1,11 @@
 package SimpleMaths.leetcode;
 
 
+/**
+ * leetcode 9. Palindrome Number
+ * @author user
+ *
+ */
 public class PalindromeNumber {
 //404 353 393
 	

@@ -1,6 +1,12 @@
 package SimpleMaths.leetcode;
 
 
+/**
+ * leetcode 189. Rotate Array
+ * @author user
+ *
+ */
+
 public class RotateArray {
 
 	public static void main(String[] args) {
@@ -36,7 +42,7 @@ public class RotateArray {
 	
 	//time : O(n) space :O(1)
 	public static void rotate2(int[] nums ,int k){
-		k %=nums.length;  //��
+		k %=nums.length;  
 		revers(nums,0,nums.length-1);
 		revers(nums,0,k-1);
 		revers(nums,k,nums.length-1);

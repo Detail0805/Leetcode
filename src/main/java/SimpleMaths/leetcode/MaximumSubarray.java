@@ -1,6 +1,12 @@
 package SimpleMaths.leetcode;
 
 
+
+/**
+ * leetcode MaximumSubarray
+ * @author user
+ *
+ */
 public class MaximumSubarray {
 
 	public static void main(String[] args) {

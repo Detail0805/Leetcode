@@ -1,6 +1,10 @@
 package SimpleMaths.leetcode;
 
-
+/**
+ * leetcode 125. Valid Palindrome
+ * @author user
+ *
+ */
 public class ValidPalindrome {
 
 	static	public boolean isPalindrome3(String s) {

@@ -1,11 +1,13 @@
 package SimpleMaths.leetcode;
 
 
-public class FirstMissingPositive {
 
-	
-	
-	
+/**
+ * leetcode 41. First Missing Positive
+ * @author user
+ *
+ */
+public class FirstMissingPositive {
 	
 	/**		   0,1,2
 	 * Input: [1,2,0] Output: 3

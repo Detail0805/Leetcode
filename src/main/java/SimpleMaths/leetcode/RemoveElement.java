@@ -1,6 +1,11 @@
 package SimpleMaths.leetcode;
 
 
+/**
+ * leetcode 27. Remove Element
+ * @author user
+ *
+ */
 public class RemoveElement {
 
 	

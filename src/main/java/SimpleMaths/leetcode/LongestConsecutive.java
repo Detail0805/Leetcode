@@ -2,8 +2,13 @@ package SimpleMaths.leetcode;
 
 import java.util.HashSet;
 
+/**
+ * leetcode 128. Longest Consecutive Sequence
+ * @author user
+ *
+ */
 // Longest Consecutive Sequence
-// Time Complexity: O(n)�ASpace Complexity: O(n)
+// Time Complexity: O(n)Space Complexity: O(n)
 public class LongestConsecutive {
     public int longestConsecutive(int[] nums) {
         final HashSet<Integer> mySet = new HashSet<Integer>();

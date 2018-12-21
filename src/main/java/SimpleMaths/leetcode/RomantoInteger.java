@@ -4,6 +4,12 @@ package SimpleMaths.leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
+
+/**
+ * leetcode 13. Roman to Integer
+ * @author user
+ *
+ */
 class RomantoInteger {
 	public static int romanToInt(String s) {
 
@@ -27,8 +33,6 @@ class RomantoInteger {
 				result += m.get(s.charAt(i));
 			else
 				result -= m.get(s.charAt(i));
-
-			System.out.println("��" + i + "��result :" + result);
 
 		}
 		return result;

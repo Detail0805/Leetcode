@@ -1,7 +1,10 @@
 package SimpleMaths.leetcode;
 
-import java.lang.reflect.Array;
-
+/**
+ * leetcode 214. Shortest Palindrome
+ * @author user
+ *
+ */
 public class ShortestPalindrome {
 	
 		
@@ -41,7 +44,7 @@ public class ShortestPalindrome {
 				ss[i]=s.charAt(i);
 			//	System.out.println(ss[i]);
 			}
-			return ss;//���i�H��toCharArray�N�i�H�A�L�O��¦��cahrAt��API
+			return ss;
 		}
 
 	
@@ -66,10 +69,6 @@ public class ShortestPalindrome {
 	public static String  shortestPalindrome(String s) {
 	    int i=0; 
 	    int j=s.length()-1;
-	 //123454321
-	    //       1113454321 
-	    //1234543111
-	    //12345431113454321
 	    while(j>=0){
 	        if(s.charAt(i)==s.charAt(j)){
 	            i++;
@@ -81,7 +80,6 @@ public class ShortestPalindrome {
 	        return s;
 	 
 	    String suffix = s.substring(i);
-	    System.out.println();
 	    String prefix = new StringBuilder(suffix).reverse().toString();
 	    String mid = shortestPalindrome(s.substring(0, i));
 	    return prefix+mid+suffix;

@@ -1,6 +1,11 @@
 package SimpleMaths.leetcode;
 
 
+/**
+ * leetcode 344. Reverse String
+ * @author user
+ *
+ */
 public class reversetheword {
 
 	public static void main(String[] args) {

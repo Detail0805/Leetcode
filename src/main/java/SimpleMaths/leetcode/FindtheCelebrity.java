@@ -1,6 +1,11 @@
 package SimpleMaths.leetcode;
 
 
+/**
+ * leetcode 277	Find the Celebrity
+ * @author user
+ *
+ */
 public class FindtheCelebrity {
 	
 	public static void main(String[] args) {

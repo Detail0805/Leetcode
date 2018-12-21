@@ -1,5 +1,11 @@
 package SimpleMaths.leetcode;
 
+
+/**
+ * leetcode 299. Bulls and Cows
+ * @author user
+ *
+ */
 public class BullsandCows {
 
 	public static void main(String[] args) {

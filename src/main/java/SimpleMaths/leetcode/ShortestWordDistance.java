@@ -1,5 +1,11 @@
 package SimpleMaths.leetcode;
 
+
+/**
+ * leetcode Shortest Word Distance I
+ * @author user
+ *
+ */
 public class ShortestWordDistance {
 
 	public static void main(String[] args) {

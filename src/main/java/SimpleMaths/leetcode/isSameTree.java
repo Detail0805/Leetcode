@@ -24,6 +24,8 @@ public class isSameTree {
 
 	public static boolean isSameTree(TreeNode l1, TreeNode l2) {
 
+		
+		
 		if (l1 == null && l2 == null)
 			return true;
 		if (l1 == null && l2 != null || l1 != null && l2 == null)
